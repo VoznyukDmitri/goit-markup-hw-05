@@ -210,7 +210,7 @@ body {
   color: var(--color-link-hover);
   fill: var(--color-link-hover);
 }
-.iten-nav-contact a {
+.item-nav-contact a {
   display: flex;
   align-items: center;
 }
@@ -264,10 +264,10 @@ body {
   padding: 0px;
 }
 
-.benefits-iten {
+.benefits-item {
   width: calc((100% - 90px) / 4);
 }
-.benefits-iten::before {
+.benefits-item::before {
   display: block;
   content: '';
   height: 120px;
@@ -330,7 +330,7 @@ body {
   margin: 0px;
   padding: 0px;
 }
-.work-iten img {
+.work-item img {
   display: block;
 }
 .actions-text {
@@ -362,7 +362,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.team-iten img {
+.team-item img {
   display: block;
 }
 .team h2 {
@@ -391,7 +391,7 @@ body {
   line-height: 1.19;
   color: var(--color-text);
 }
-.team-iten {
+.team-item {
   display: block;
   text-align: center;
   background: var(--color-title-hero);
@@ -464,7 +464,7 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.client-iten:not(:last-child) {
+.client-item:not(:last-child) {
   margin-right: 30px;
 }
 /* ------------------------Підвал--------------------- */
@@ -514,13 +514,13 @@ body {
   margin-bottom: 0px;
   padding: 0px;
 }
-.address-iten:not(:last-child) {
+.address-item:not(:last-child) {
   margin-bottom: 9px;
 }
 
 /*----------------- Соцмережі футера---------------- */
 
-.title-futer-soc {
+.title-footer-soc {
   display: block;
   margin-top: 0px;
   margin-bottom: 20px;
@@ -534,7 +534,7 @@ body {
   color: var(--color-logo-footer);
 }
 /* Іконки соцмереж футера*/
-.futer-soc-link {
+.footer-soc-link {
   border-radius: 50%;
   width: 44px;
   height: 44px;
@@ -548,14 +548,14 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.futer-soc-link:not(:last-child) {
+.footer-soc-link:not(:last-child) {
   margin-right: 10px;
 }
-.futer-soc-div {
+.footer-soc-div {
   display: flex;
 }
-.futer-soc-link:hover,
-.futer-soc-link:focus {
+.footer-soc-link:hover,
+.footer-soc-link:focus {
   fill: var(--color-main-background);
   background-color: var(--color-link-hover);
 }
@@ -584,7 +584,7 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
-.filter-iten:not(:last-child) {
+.filter-item:not(:last-child) {
   margin-right: 8px;
 }
 
@@ -597,13 +597,13 @@ body {
 }
 
 /* ----------------------Карточки--------------------*/
-.works-iten img {
+.works-item img {
   display: block;
 }
-.works-iten:nth-child(n + 7) {
+.works-item:nth-child(n + 7) {
   margin-bottom: 0px;
 }
-.works-iten {
+.works-item {
   margin-bottom: 30px;
   background: var(--color-title-hero);
   border: 1px solid var(--color-border);
@@ -638,7 +638,7 @@ body {
   line-height: 1.87;
   color: var(--color-text);
 }
-.works-iten:hover {
+.works-item:hover {
   border: 1px solid var(--color-border);
   box-sizing: border-box;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -674,7 +674,7 @@ body {
   line-height: 1.5;
   color: #ffffff;
 }
-.works-iten:hover .technocrack {
+.works-item:hover .technocrack {
   transform: translateY(0%);
 }
 
